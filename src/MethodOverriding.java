@@ -4,7 +4,7 @@ class Employee {
     }
 }
 
-public class Engineer extends Employee {
+public class MethodOverriding extends Employee {
 
     void display() {
         System.out.println("Name of class is Engineer");
@@ -12,7 +12,7 @@ public class Engineer extends Employee {
     }
 
     public static void main(String[] args) {
-        Engineer e = new Engineer();
-        e.display();
+        MethodOverriding obj = new MethodOverriding();
+        obj.display();
     }
 }
